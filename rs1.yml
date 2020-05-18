@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-#    matchExpressions:
+    matchExpressions:
 #      - { key: env, operator: In, values: [ production ] }
 #      - { key: region, operator: In, values: [ IN ] }
   template:
