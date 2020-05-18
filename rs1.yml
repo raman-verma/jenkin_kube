@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: mywebrs
+  name: myweb-rs
 spec:
   replicas: 3
   selector:
@@ -18,3 +18,4 @@ spec:
     spec:
       containers:
       -  name: myweb-con
+         image: httpd
