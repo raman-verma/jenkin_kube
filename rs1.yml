@@ -4,6 +4,7 @@ metadata:
   name: myweb-rs
 spec:
   replicas: 3
+  selector:
   template:
     metadata:
       name: myweb-pod
